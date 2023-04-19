@@ -7,9 +7,8 @@ h2 {
 }
 
 img {
-    max-width: 100px;
-    max-height: 150px;
-    padding: auto;
+    max-width: 150px;
+    max-height: 160px;
 }
 
 body {
@@ -27,6 +26,12 @@ body {
 .container {
     display: grid;
     align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 5px;
+}
+
+#image {
+    /* TODO Still not across box 2 and 3... */
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
