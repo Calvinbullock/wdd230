@@ -1,4 +1,4 @@
-ul{
+ul {
     list-style-type: circle;
 }
 
@@ -6,32 +6,48 @@ h2 {
     font-weight: bold;
 }
 
+li {
+    font-weight: 300;
+}
+
 img {
     max-width: 150px;
     max-height: 160px;
+    border-radius: 20px;
 }
 
 body {
-    width: 80%;
-    padding-left: 10%;
+    width: 900px;
+    justify-content: center;
+    margin: auto;
+    padding-top: 2em;
+    /* background-color: rgb(72, 72, 72);
+    color: white; */
 }
 
 .card {
-    background-color: rgb(209, 57, 191);
+    background-color: rgb(177, 59, 163);
+    color: rgb(222, 222, 222);
     border-radius: 25px;
     padding: 2%;
-    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
 }
 
 .container {
     display: grid;
-    align-items: center; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 5px;
 }
 
-#image {
+#card-text {
     /* TODO Still not across box 2 and 3... */
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin: auto;
+    font-weight: bold;
 }
