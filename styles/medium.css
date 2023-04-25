@@ -1,0 +1,11 @@
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 3rem;
+        padding: 3rem;
+        color: black;
+    }
+
+    .card {
+        font-size: 1.5em;
+    }
+}
