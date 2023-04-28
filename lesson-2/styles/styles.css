@@ -1,0 +1,12 @@
+/* -- colour palete
+2c0735
+613dc1
+97dffc
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+body {
+    font-family: 'Arvo', serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
