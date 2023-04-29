@@ -7,10 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 body {
-    width: 1400px;
-    justify-content: center;
-    margin: auto;
-
     font-family: 'Arvo', serif;
     padding: 5%;
 }
@@ -106,6 +102,12 @@ img {
 
 /* Desktop */
 @media screen and (min-width: 1200px) {
+    body {
+        width: 1200px;
+        justify-content: center;
+        margin: auto;
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
