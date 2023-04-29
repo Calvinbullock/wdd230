@@ -6,17 +6,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
+body {
+    width: 1400px;
+    justify-content: center;
+    margin: auto;
+
+    font-family: 'Arvo', serif;
+    padding: 5%;
+}
+
 header, footer {
     background-color: #97dffc;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 2em;
     text-align: center;
-}
-
-body {
-    font-family: 'Arvo', serif;
-    padding: 5%;
 }
 
 h1 {
