@@ -6,11 +6,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
-header {
+header, footer {
     background-color: #97dffc;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 2em;
+    text-align: center;
 }
 
 body {
@@ -26,41 +27,53 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 .grid-container {
     display: block;
-
 }
 
 .colour {
-    background-color: #97dffc;
+    border: #97dffc;
+    border-style: solid;
     margin: 5%;
     padding: 10%;
     border-radius: 2em;
-    color: #0027a5;
+    color: #162e33;
 }
 
 .contrast {
-    background-color: #97dffc;
+    border: #97dffc;
+    border-style: solid;
     margin: 5%;
     padding: 10%;
     border-radius: 2em;
 }
 
 .consistency {
-    background-color: #97dffc;
+    border: #97dffc;
+    border-style: solid;
     margin: 5%;
     padding: 10%;
     border-radius: 2em;
 }
 
-.h2-colour {
-    color: #90469f;
-}
-
-.img-contrast {
+img {
     width: 100%;
     justify-content: center;
+}
 
+.contrast-img {
+    width: 100%;
+    justify-content: center;
+}
+
+.principle-link {
+    text-align: center;
+    display: block;
+    padding-bottom: 1em;
 }
 
 /* Tablet */
