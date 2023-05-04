@@ -43,6 +43,34 @@ footer {
     padding-bottom: 1em;
 }
 
+/* For the design page */
+.header-colour {
+    background-color: var(--header-bg-colour);
+    color: var(--header-text-colour);
+}
+
+.nav-bar-colour {
+    background-color: var(--general-bg-colour);
+}
+
+.nav-bar-active-colour {
+    background-color: var(--hover);
+    color: var(--general-bg-colour);
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+td {
+    padding: 1rem;
+}
+
+/* End design page */
+
+/* Nav bar styleing */
 ul {
     justify-content: center;
     margin: auto;
@@ -78,17 +106,8 @@ header ul li a:hover {
 }
 
 .curent-page:hover {
-    background-color: var(--hover);
-    color: var(--general-bg-colour);
+    background-color: var(--header-bg-colour);
+    color: var(--hover);
 }
 
-/* For the Design page */
-table,
-th,
-td {
-    border: 1px solid;
-}
-
-td {
-    padding: 1rem;
-}
+/* End nav bar styleing */
