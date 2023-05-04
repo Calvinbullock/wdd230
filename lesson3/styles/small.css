@@ -77,3 +77,12 @@ header ul li a:hover {
     background-color: var(--hover);
     color: var(--general-bg-colour);
 }
+
+/* For the Design page */
+table, th, td {
+    border: 1px solid;
+}
+
+td {
+    padding: 1rem;
+}
