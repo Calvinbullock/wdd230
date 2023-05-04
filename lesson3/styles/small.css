@@ -1,13 +1,45 @@
-header {
+:root {
+    --header-bg-colour: #cca43b;
+    --header-text-colour: #363636;
+    --general-bg-colour: #e5e5e5;
+    --general-text-colour: #152E53;
+    --hover: #121259;
 
+}
+
+header {
+    background-color: var(--header-bg-colour);
+    color: var(--header-text-colour);
+    text-align: center;
+    padding-top: 1em;
+}
+
+main {
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
 }
 
 footer {
+    background-color: var(--header-bg-colour);
+    color: var(--header-text-colour);
+    justify-content: center;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 
+ul {
+    justify-content: center;
+    margin: auto;
 }
 
 header ul {
-    background-color: blue;
+    background-color: var(--general-bg-colour);
     padding-inline-start: 0%;
 }
 
@@ -20,11 +52,22 @@ header ul li {
 header ul li a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: var(--general-text-colour);
     padding: 1rem;
     text-align: center;
 }
 
 header ul li a:hover {
-    background-color: blueviolet;
+    background-color: var(--hover);
+    color: var(--general-bg-colour);
+}
+
+.curent-page {
+    background-color: var(--hover);
+    color: var(--general-bg-colour);
+}
+
+.curent-page:hover {
+    background-color: var(--hover);
+    color: var(--general-bg-colour);
 }
