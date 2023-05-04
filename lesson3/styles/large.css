@@ -1,0 +1,17 @@
+@media screen and (min-width: 1200px) {
+    
+    body {
+        justify-content: center;
+        margin: auto;
+        width: 1080px;
+    }
+
+    img {
+        width: 600px;
+    }
+
+    header ul {
+        display: flex;
+        /* flex-direction: ; */
+    }  
+}
