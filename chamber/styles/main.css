@@ -19,7 +19,7 @@ footer {
     background-color: var(--header-bg-colour);
 }
 
-/* Header CSS start */
+/* ---- Header CSS start ---- */
 
 h1 {
     margin-top: .5rem;
@@ -68,9 +68,9 @@ h2 {
     padding: .5rem;
 }
 
-/* Header CSS End */
+/* ---- Header CSS End ---- */
 
-/* Main CSS Start */
+/* ---- Main CSS Start ---- */
 
 main {
     justify-content: center;
@@ -82,17 +82,27 @@ main {
     height: 144px;
 }
 
-/* .inner-div-card {
+.div-card-spotlight {
     background-color: gray;
+    padding: 1rem;
+    margin: 1rem;
+    min-height: 144px;
+}
+
+.inner-div-card {
+    min-height: 144px;
+    border: solid black;
+    border-width: 1px;
+    /* background-color: gray;
     color: var(--general-bg-colour);
     height: 90%;
-    border: black;
-    padding: 1rem;
-} */
+    padding: 1rem; */
+    /* display:inline-block;  */
+}
 
-/* Main CSS End */
+/* ---- Main CSS End ---- */
 
-/* Footer CSS Start */
+/* ---- Footer CSS Start ---- */
 
 footer {
     /* display: flex; */
@@ -116,9 +126,4 @@ footer {
     margin: 0%;
 }
 
-/* .footer-div1 a {
-    margin: 1rem;
-} */
-
-
-/* Footer CSS End */
+/* ---- Footer CSS End ---- */
