@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zilla+Slab:ital@1&display=swap');
+
+:root {
+    --header-bg-colour: #cca43b;
+    --header-text-colour: #363636;
+    --general-bg-colour: #e5e5e5;
+    --general-text-colour: #152E53;
+    --hover: #121259;
+}
+
+body {
+    font-family: 'Zilla Slab', serif;
+    width: 900px;
+    justify-content: center;
+    margin: auto;
+
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header {
+    display: flex;
+    background-color: var(--header-bg-colour);
+}
+
+.header-block1 {
+    width: 5%;
+    float: right;
+}
+
+.header-block2 {
+    width: 25%;
+    float: left;
+}
+
+.header-block3 {
+    width: 100%;
+    background-color: var(--general-bg-colour);
+}
+
+.div-card{
+    background-color: gray;
+    margin: 1rem;
+    height: 144px;
+}
+
+.inner-div-card {
+    background-color: #121259;
+    color: var(--general-bg-colour);
+    height: 144px   ;
+}
