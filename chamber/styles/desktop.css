@@ -131,4 +131,23 @@
         text-align: center;
         width: 30%;
     }
+
+    /* ---- Nav Menu ---- */
+    #navbar {
+        flex-direction: row;
+        display: flex;
+        list-style: none;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    nav {
+        max-width: 400px;
+    }
 }
