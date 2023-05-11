@@ -129,3 +129,79 @@ footer {
 }
 
 /* ---- Footer CSS End ---- */
+
+/* ---- Ham menu ---- */
+#navbar{
+    background-color: var(--menu-bg-color);
+    color: white;
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block: 0px;
+  }
+  
+  #navbar-active{
+    background-color: var(--hover);
+  }
+  
+  #menu-toggle{
+    display: block;
+    border: 2px solid black;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--general-bg-colour);
+  }
+  
+  #menu-open{
+    display: block;
+  }
+  
+  #menu-close{
+    display: none;
+  }
+  
+  #menu-open.open{
+    display: none;
+  }
+  
+  #menu-close.open{
+    display: block;
+  }
+  
+  #navbar.open{
+    display: flex;
+  }
+  
+  #navbar{
+    display: none;
+  }
+  
+  nav {
+    background-color: var(--menu-bg-color);
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black; 
+  }
+  
+  nav ul li {
+    border: 1px solid black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  nav a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;    
+    color: white;
+    font-size: 1.25rem;
+  }
+  
+  nav ul li a:hover{
+    background-color: var(--hover);
+    color: var(--header-bg-colour);
+  }
+  
