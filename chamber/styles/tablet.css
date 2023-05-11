@@ -62,4 +62,40 @@
     .spotlight-2 {
         width: 45%;
     }
+
+    /* Footer start */
+
+    .footer-flex {
+        display: flex;
+        align-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-div1,
+    .footer-div2 {
+        margin: auto;
+        text-align: center;
+        width: 30%;
+        margin: 2rem;
+    }
+
+    .footer-div2 {
+        padding-right: 4rem;
+    }
+    
+    .footer-div3 {
+        display: flex;
+        align-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
 }
