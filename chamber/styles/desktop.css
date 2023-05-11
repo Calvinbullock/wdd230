@@ -1,5 +1,79 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
     body {
-        width: 800px;
+        width: 1200px;
+
+    }
+
+    main {
+        justify-content: center;
+        margin: auto;
+        width: 95%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "event   hero hero spotlight"
+            "weather hero hero spotlight"
+            "join    news news spotlight";
+
+    }
+
+    .hero-block {
+        grid-area: hero;
+        width: 90%;
+    }
+
+    .event-block {
+        grid-area: event;
+        width: 90%;
+    }
+
+    .weather-block {
+        grid-area: weather;
+        width: 90%;
+    }
+
+    .news-block {
+        grid-area: news;
+        width: 90%;
+    }
+
+    .spotlight-block {
+        grid-area: spotlight;
+        width: 90%;
+    }
+
+    .join-block {
+        grid-area: join;
+        width: 90%;
+    }
+
+    .spotlight-3 {
+        display: block;
+    }
+
+    /* Footer start */
+
+    footer {
+        display: flex;
+    }
+
+    .footer-logo {
+        width: 200px;
+    }
+
+    .footer-div1 {
+        width: 20%;
+    }
+    
+    .index-footer-hr {
+        visibility: hidden;
+        width: 0%;
+    }
+    
+    .footer-div2 {
+        margin: auto;
+        text-align: center;
+        width: 30%;
     }
 }

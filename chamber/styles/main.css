@@ -82,7 +82,7 @@ main {
     height: 144px;
 }
 
-.div-card-spotlight {
+.spotlight-block {
     background-color: gray;
     padding: 1rem;
     margin: 1rem;
@@ -93,11 +93,14 @@ main {
     min-height: 144px;
     border: solid black;
     border-width: 1px;
-    /* background-color: gray;
-    color: var(--general-bg-colour);
-    height: 90%;
-    padding: 1rem; */
-    /* display:inline-block;  */
+}
+
+.news-block {
+    display: none;
+} 
+
+.spotlight-3 {
+    display: none;
 }
 
 /* ---- Main CSS End ---- */
@@ -105,7 +108,6 @@ main {
 /* ---- Footer CSS Start ---- */
 
 footer {
-    /* display: flex; */
     text-align: center;
     justify-content: center;
 }
