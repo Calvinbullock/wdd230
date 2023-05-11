@@ -53,6 +53,10 @@ h2 {
     display: flex;
 }
 
+.header-block2 {
+    width: 70%;
+}
+
 .social-logo {
     width: 30px;
     height: 30px;
@@ -97,7 +101,7 @@ main {
 
 .news-block {
     display: none;
-} 
+}
 
 .spotlight-3 {
     display: none;
@@ -122,8 +126,7 @@ footer {
     width: 70%;
 }
 
-.footer-div1 h3,
-.footer-div2 p {
+.footer-div3 p {
     padding: 0%;
     margin: 0%;
 }
