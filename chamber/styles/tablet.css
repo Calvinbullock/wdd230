@@ -7,7 +7,7 @@
         display: grid;
         column-gap: 3px;
         row-gap: 3px;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
             "hero hero hero"
             "news news news"
