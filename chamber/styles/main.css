@@ -78,14 +78,14 @@ main {
 
 .div-card {
     background-color: gray;
-    margin: 1rem;
-    height: 144px;
+    margin: .5rem;
+    min-height: 144px;
 }
 
 .spotlight-block {
     background-color: gray;
     padding: 1rem;
-    margin: 1rem;
+    margin: .5rem;
     min-height: 144px;
 }
 

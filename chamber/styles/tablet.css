@@ -1,8 +1,4 @@
 @media screen and (min-width: 700px) {
-    body {
-        width: 700px;
-    }
-
     main {
         justify-content: center;
         margin: auto;

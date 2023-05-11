@@ -1,7 +1,6 @@
 @media screen and (min-width: 1200px) {
     body {
         width: 1200px;
-
     }
 
     main {
@@ -15,41 +14,50 @@
             "event   hero hero spotlight"
             "weather hero hero spotlight"
             "join    news news spotlight";
+    }
 
+    .hero-block,
+    .event-block,
+    .join-block,
+    .weather-block,
+    .news-block,
+    .spotlight-block {
+        width: auto;
     }
 
     .hero-block {
         grid-area: hero;
-        width: 90%;
     }
 
     .event-block {
         grid-area: event;
-        width: 90%;
-    }
-
-    .weather-block {
-        grid-area: weather;
-        width: 90%;
-    }
-
-    .news-block {
-        grid-area: news;
-        width: 90%;
-    }
-
-    .spotlight-block {
-        grid-area: spotlight;
-        width: 90%;
     }
 
     .join-block {
         grid-area: join;
-        width: 90%;
+    }
+
+    .weather-block {
+        grid-area: weather;
+    }
+
+    .news-block {
+        grid-area: news;
+    }
+
+    .spotlight-block {
+        grid-area: spotlight;
+        display: block;
     }
 
     .spotlight-3 {
         display: block;
+    }
+
+    .inner-div-card {
+        width: 100%;
+        justify-content: center;
+        margin: auto;
     }
 
     /* Footer start */
@@ -65,12 +73,12 @@
     .footer-div1 {
         width: 20%;
     }
-    
+
     .index-footer-hr {
         visibility: hidden;
         width: 0%;
     }
-    
+
     .footer-div2 {
         margin: auto;
         text-align: center;
