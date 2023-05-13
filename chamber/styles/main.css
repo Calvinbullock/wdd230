@@ -131,6 +131,10 @@ footer {
     margin: 0%;
 }
 
+.footoer-divider {
+  display: none;
+}
+
 /* ---- Footer CSS End ---- */
 
 /* ---- Ham menu ---- */
