@@ -1,4 +1,12 @@
 @media screen and (min-width: 700px) {
+    
+    /* Header */
+    .header-block2 h1,
+    .header-block2 h2 {
+        font-size: 30px;
+    }
+    
+    /* Body - Main */
     main {
         justify-content: center;
         margin: auto;
@@ -91,11 +99,12 @@
         padding-right: 4rem;
     }
     
-    .footer-div3 {
+    .footer-div3 {  
+        font-size: 15px;
+        padding: 1rem;
         display: flex;
-        align-content: center;
         text-align: center;
-        margin: auto;
+        justify-content: center;
     }
 
 }
