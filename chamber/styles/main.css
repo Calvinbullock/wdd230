@@ -135,12 +135,17 @@ footer {
   display: none;
 }
 
+.footer-div2 a:visited{
+  color: black;
+  font-weight: bold;
+}
+
 /* ---- Footer CSS End ---- */
 
 /* ---- Ham menu ---- */
 #navbar {
   background-color: var(--menu-bg-color);
-  color: white;
+  color: black;
   display: none;
   flex-direction: column;
   list-style: none;
@@ -194,7 +199,7 @@ nav {
 nav ul li {
   border: 1px solid black;
   width: 100%;
-  color: white;
+  color: black;
   text-align: center;
 
 }
@@ -203,7 +208,7 @@ nav a {
   display: block;
   padding: 1rem;
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 1.25rem;
 }
 
