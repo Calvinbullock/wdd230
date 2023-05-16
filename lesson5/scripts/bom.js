@@ -28,7 +28,7 @@ button.addEventListener('click', () => {
 
     // add an event listener to the delete button that removes the li element when clicked
     deletebutton.addEventListener('click', () => {
-        mylist.remove(newlistitem)
+        newlistitem.remove()
     })
 
     // send the focus to the input element
