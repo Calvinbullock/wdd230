@@ -9,10 +9,10 @@ button.addEventListener('click', () => {
     }
 
     // create an li element
-    newlistitem = document.createElement('li')
+    let newlistitem = document.createElement('li')
 
     // create a delete button
-    deletebutton = document.createElement('button')
+    let deletebutton = document.createElement('button')
 
     // populate the li elements textContent or innerHTML with the input
     newlistitem.textContent = userinput.value
