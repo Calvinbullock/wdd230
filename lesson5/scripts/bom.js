@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
 
     // create a delete button
     let deletebutton = document.createElement('button')
-
+    
     // populate the li elements textContent or innerHTML with the input
     newlistitem.textContent = userinput.value
 
