@@ -227,12 +227,13 @@ nav {
   border: 1px solid black;
 }
 
+/* TODO colour needs to fill whole box */
 nav ul li {
   border: 1px solid black;  
   width: 100%;
   color: black;
   text-align: center;
-
+  margin: auto;
 }
 
 nav a {
@@ -243,7 +244,6 @@ nav a {
   font-size: 1.25rem;
 }
 
-/* TODO colour needs to fill whole box */
 nav ul li a:hover {
   background-color: var(--hover);
   color: var(--header-bg-colour);
