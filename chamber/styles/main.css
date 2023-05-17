@@ -72,7 +72,16 @@ h2 {
   padding: .5rem;
 }
 
-/* ---- Header CSS End ---- */
+/* ---- Main content styling ---- */
+
+.hero-img,
+.hero-block {
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
 
 /* ---- Main CSS Start ---- */
 
