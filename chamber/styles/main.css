@@ -81,9 +81,27 @@ h2 {
   padding: 0;
   display: block;
   width: 100%;
+  
+  position: relative;
 }
 
-/* ---- Main CSS Start ---- */
+#Abs-hero {
+  position: absolute;
+  padding: 1rem;
+  margin: 1rem;
+  bottom: 2px;
+  right: 2px;
+  border-radius: 1rem;
+
+  color: var(--general-bg-colour) ;
+  background-color: var(--hover);
+}
+
+#Abs-hero a:visited {
+  color: var(--header-bg-colour);
+  font-weight: 300%;
+}
+
 
 main {
   justify-content: center;
