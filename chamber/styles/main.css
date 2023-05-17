@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zilla+Slab:ital@1&display=swap');
 
+/* TODO
+-- set <hr> up right - still a strang white colour???
+-- ham menu - mobile / tablet spaceing messed up 
+-- nav colour block on desktop not working right
+*/
+
 :root {
   --header-bg-colour: #cca43b;
   --header-text-colour: #363636;
-  --general-bg-colour: #e5e5e5;
+  --general-bg-colour: #ffffff; 
   --general-text-colour: #152E53;
   --hover: #121259;
 }
@@ -72,7 +78,7 @@ h2 {
   padding: .5rem;
 }
 
-/* ---- Main content styling ---- */
+/* ---- Main Content Styling ---- */
 
 .hero-img,
 .hero-block {
@@ -102,6 +108,7 @@ h2 {
   font-weight: 300%;
 }
 
+/* ---- Main Layout Styling ---- */
 
 main {
   justify-content: center;
@@ -134,8 +141,6 @@ main {
   display: none;
 }
 
-/* ---- Main CSS End ---- */
-
 /* ---- Footer CSS Start ---- */
 
 footer {
@@ -167,9 +172,8 @@ footer {
   font-weight: bold;
 }
 
-/* ---- Footer CSS End ---- */
-
 /* ---- Ham menu ---- */
+
 #navbar {
   background-color: var(--menu-bg-color);
   color: black;
@@ -224,7 +228,7 @@ nav {
 }
 
 nav ul li {
-  border: 1px solid black;
+  border: 1px solid black;  
   width: 100%;
   color: black;
   text-align: center;
@@ -239,12 +243,8 @@ nav a {
   font-size: 1.25rem;
 }
 
+/* TODO colour needs to fill whole box */
 nav ul li a:hover {
   background-color: var(--hover);
   color: var(--header-bg-colour);
-}
-
-/* TODO
--- set <hr> up right - still a strang white colour???
--- ham menu - mobile / tablet spaceing messed up 
-*/
+} 
