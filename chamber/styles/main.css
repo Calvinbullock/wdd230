@@ -105,7 +105,7 @@ h2 {
 
 #Abs-hero a:visited {
   color: var(--header-bg-colour);
-  font-weight: 300%;
+  font-weight: 300;
 }
 
 /* ---- Main Layout Styling ---- */
