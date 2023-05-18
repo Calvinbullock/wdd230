@@ -155,16 +155,14 @@ main {
   display: none;
   justify-content: center;
   margin: auto;
+  align-items: center;
 }
 
 .join-block-button {
   background-color: var(--header-bg-colour);
   color: var(--general-bg-colour);
 
-  border-radius: 1rem;
-  text-align: center;
-  padding: 1rem;
-  margin: auto;
+  align-items: center;
   width: 90%;
 }
 
