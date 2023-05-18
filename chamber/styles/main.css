@@ -182,6 +182,11 @@ main {
 
   align-items: center;
   width: 90%;
+
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
 }
 
 .join-block-button a,
