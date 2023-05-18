@@ -80,7 +80,7 @@
     }
 
     .join-block {
-        display: flex;
+        display: inline;
         grid-area: join;
     }
 
