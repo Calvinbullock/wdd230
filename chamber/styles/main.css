@@ -178,7 +178,7 @@ main {
 .div-card {
   background-color: rgb(202, 202, 202);
   margin: .5rem;
-  min-height: 144px;
+  /* min-height: 144px; */
   font-weight: bold;
   padding: 1rem;
 }
@@ -203,12 +203,13 @@ main {
   color: var(--general-bg-colour);
 
   align-items: center;
-  width: 90%;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
 
   border-radius: 1rem;
   text-align: center;
   padding: 1rem;
-  margin: auto;
 }
 
 .join-block-button a,
