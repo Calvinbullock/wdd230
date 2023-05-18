@@ -9,7 +9,7 @@
 :root {
   --header-bg-colour: #cca43b;
   --header-text-colour: #363636;
-  --general-bg-colour: #ffffff; 
+  --general-bg-colour: #ffffff;
   --general-text-colour: #152E53;
   --hover: #121259;
 }
@@ -87,7 +87,7 @@ h2 {
   padding: 0;
   display: block;
   width: 100%;
-  
+
   position: relative;
 }
 
@@ -98,13 +98,15 @@ h2 {
   bottom: 2px;
   right: 2px;
   border-radius: 1rem;
+  height: 50px;
 
-  color: var(--general-bg-colour) ;
+  color: var(--general-bg-colour);
   background-color: var(--hover);
 }
 
+#Abs-hero a,
 #Abs-hero a:visited {
-  color: var(--header-bg-colour);
+  color: white;
   font-weight: 300;
 }
 
@@ -125,13 +127,15 @@ main {
 }
 
 .div-card {
-  background-color: gray;
+  background-color: rgb(202, 202, 202);
   margin: .5rem;
   min-height: 144px;
+  font-weight: bold;
+  padding: 1rem;
 }
 
 .spotlight-block {
-  background-color: gray;
+  background-color: rgb(202, 202, 202);
   padding: 1rem;
   margin: .5rem;
   min-height: 144px;
@@ -197,7 +201,8 @@ footer {
   display: none;
 }
 
-.footer-div2 a:visited{
+/* TODO BUG */
+.footer-div2 a:visited {
   color: black;
   font-weight: bold;
 }
@@ -259,7 +264,7 @@ nav {
 
 /* TODO colour needs to fill whole box */
 nav ul li {
-  border: 1px solid black;  
+  border: 1px solid black;
   width: 100%;
   color: black;
   text-align: center;
@@ -277,4 +282,4 @@ nav a {
 nav ul li a:hover {
   background-color: var(--hover);
   color: var(--header-bg-colour);
-} 
+}

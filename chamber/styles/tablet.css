@@ -50,6 +50,7 @@
     }
 
     .join-block {
+        display: block;
         grid-area: join;
     }
 
