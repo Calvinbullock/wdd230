@@ -136,6 +136,7 @@ h2 {
   display: flex;
   justify-content: center;
   margin: auto;
+  max-height: 328;
 }
 
 .weather-img {
