@@ -108,6 +108,16 @@ h2 {
   font-weight: 300;
 }
 
+.weather-block {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.weather-img {
+  width: 90%;
+}
+
 /* ---- Main Layout Styling ---- */
 
 main {
@@ -135,6 +145,26 @@ main {
 
 .join-block {
   display: none;
+  justify-content: center;
+  margin: auto;
+}
+
+.join-block-button {
+  background-color: var(--header-bg-colour);
+  color: var(--general-bg-colour);
+
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+  width: 90%;
+}
+
+.join-block-button a,
+.join-block-button a:visited {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
 }
 
 .spotlight-3 {
