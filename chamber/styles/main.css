@@ -4,6 +4,8 @@
 -- set <hr> up right - still a strang white colour???
 -- ham menu - mobile / tablet spaceing messed up 
 -- nav colour block on desktop not working right
+
+-- Banner has a TODO and is not showing
 */
 
 :root {
@@ -71,6 +73,22 @@ h2 {
   width: 50px;
   height: 50px;
   padding: 5px;
+}
+
+/* TODO not showing  */
+#meet-greet {
+  display: none;
+}
+
+#meet-greet.active {
+  display: block;
+
+  background-color: var(--general-bg-colour);
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding: .5rem;
 }
 
 .current-date-box {
