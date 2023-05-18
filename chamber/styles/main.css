@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zilla+Slab:ital@1&display=swap');
 
 /* TODO
--- set <hr> up right - still a strang white colour???
 -- ham menu - mobile / tablet spaceing messed up 
 -- nav colour block on desktop not working right
 
@@ -98,6 +97,7 @@ h2 {
   margin: auto;
   width: 90%;
   padding: .5rem;
+  border: 1px solid black;
 }
 
 /* ---- Main Content Styling ---- */
@@ -144,12 +144,31 @@ h2 {
 
 /* ----- Spotlight styling ----- */
 
-.spotlight-img{
+.spotlight-img {
   width: 150px;
-  
+  justify-content: center;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.spotlight-hr {
+  width: 85%;
+  border: 1px solid black;
+}
+
+.spotlight-p {
+  font-size: 14px;
+  margin: 0%;
 }
 
 /* ---- Main Layout Styling ---- */
+
+.inner-div-card {
+  min-height: 144px;
+  border: solid black;
+  border-width: 1px;
+  text-align: center;
+}
 
 main {
   justify-content: center;
@@ -168,12 +187,7 @@ main {
   padding: 1rem;
   margin: .5rem;
   min-height: 144px;
-}
-
-.inner-div-card {
-  min-height: 144px;
-  border: solid black;
-  border-width: 1px;
+  justify-content: center;
 }
 
 .join-block {
@@ -220,7 +234,7 @@ footer {
 }
 
 .index-footer-hr {
-  color: black;
+  border: 1px solid black;
   width: 70%;
 }
 
