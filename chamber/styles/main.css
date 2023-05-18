@@ -25,6 +25,10 @@ footer {
   background-color: var(--header-bg-colour);
 }
 
+footer a {
+  color: black
+}
+
 /* ---- Header CSS start ---- */
 
 h1 {
@@ -210,6 +214,7 @@ footer {
 /* ---- Ham menu ---- */
 
 #navbar {
+  align-items: center;
   background-color: var(--menu-bg-color);
   color: black;
   display: none;
@@ -262,13 +267,11 @@ nav {
   border: 1px solid black;
 }
 
-/* TODO colour needs to fill whole box */
 nav ul li {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   color: black;
   text-align: center;
-  margin: auto;
 }
 
 nav a {
