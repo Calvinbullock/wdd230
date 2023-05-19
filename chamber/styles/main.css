@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zilla+Slab:ital@1&display=swap');
 
-/* TODO
--- ham menu - mobile / tablet spaceing messed up 
--- nav colour block on desktop not working right
-
--- Banner has a TODO and is not showing
-*/
-
 :root {
   --header-bg-colour: #cca43b;
   --header-text-colour: #363636;
@@ -169,6 +162,7 @@ h2 {
   border: solid black;
   border-width: 1px;
   text-align: center;
+  /* margin: 10px; */
 }
 
 main {
