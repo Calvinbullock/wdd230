@@ -125,6 +125,19 @@ h2 {
   font-weight: 300;
 }
 
+.abs-hero-h1 {
+  position: absolute;
+  padding: 1rem;
+  margin: 1rem;
+  top: 2px;
+  left: 2px;
+  border-radius: 1rem;
+  height: 50px;
+
+  font-size: 40px;
+  color: var(--hover);
+}
+
 .weather-block {
   display: flex;
   justify-content: center;
@@ -136,6 +149,7 @@ h2 {
   text-align: center;
   margin: auto;
 }
+
 .event-block h3 {
   font-size: 25px;
 }
