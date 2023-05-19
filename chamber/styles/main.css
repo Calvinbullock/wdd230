@@ -106,7 +106,7 @@ h2 {
   position: relative;
 }
 
-#Abs-hero {
+#abs-hero {
   position: absolute;
   padding: 1rem;
   margin: 1rem;
@@ -119,8 +119,8 @@ h2 {
   background-color: var(--hover);
 }
 
-#Abs-hero a,
-#Abs-hero a:visited {
+#abs-hero a,
+#abs-hero a:visited {
   color: white;
   font-weight: 300;
 }
