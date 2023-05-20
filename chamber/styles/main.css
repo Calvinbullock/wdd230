@@ -143,7 +143,7 @@ h2 {
   display: flex;
   justify-content: center;
   margin: auto;
-  max-height: 328;
+  max-height: 328px;
 }
 
 .event-block {
