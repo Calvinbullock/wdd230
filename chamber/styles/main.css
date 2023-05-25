@@ -67,7 +67,6 @@ h2 {
   padding: 5px;
 }
 
-/* TODO-- not showing  */
 #meet-greet {
   display: none;
 }
@@ -140,10 +139,38 @@ h2 {
 }
 
 .weather-block {
-  display: flex;
+  display: block;
   justify-content: center;
   margin: auto;
   max-height: 328px;
+}
+
+.iner-weather-block {
+  display: inline;
+  text-align: center;
+}
+
+.weather-img {
+  max-width: 80px;
+  margin: 2px;
+  margin-right: 10px;
+}
+
+.temp-degrees {
+  font-size: 2rem;
+}
+
+.temp-div {
+  display: flex;
+  justify-content: center;
+}
+
+.iner-weather-block h3 {
+  font-size: 2rem;
+}
+
+.iner-weather-block hr {
+  border: 1px solid black;
 }
 
 .event-block {
@@ -157,10 +184,6 @@ h2 {
 
 .event-block h2 {
   font-size: 20px;
-}
-
-.weather-img {
-  width: 90%;
 }
 
 /* ----- Spotlight styling ----- */
