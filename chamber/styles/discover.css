@@ -1,25 +1,2 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zilla+Slab:ital@1&display=swap');
 
-:root {
-    --header-bg-colour: #cca43b;
-    --header-text-colour: #363636;
-    --general-bg-colour: #ffffff;
-    --general-text-colour: #152E53;
-    --hover: #121259;
-}
 
-body {
-    font-family: 'Zilla Slab', serif;
-    justify-content: center;
-    margin: auto;
-}
-
-img {
-    width: 20px;
-}
-
-.div-card {
-    background-color: grey;
-    border: 1px solid black;
-    min-height: 144px;
-}

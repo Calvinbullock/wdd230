@@ -175,3 +175,22 @@ body {
 .spotlight-3 {
   display: none;
 }
+
+/* Discover Page */
+/* Discover Page */
+/* Discover Page */
+
+.discover-img {
+  width: 100%;
+}
+
+.discover-card {
+  background-color: rgb(202, 202, 202);
+  border: 1px solid black;
+  
+  min-height: 144px;
+  margin: .5rem;
+  min-height: 144px;
+  font-weight: bold;
+  padding: 1rem;
+}
