@@ -198,6 +198,21 @@ footer {
     font-weight: bold;
 }
 
+/* Header Event Content */
+
+.event-block {
+    text-align: center;
+    margin: auto;
+}
+
+.event-block h3 {
+    font-size: 25px;
+}
+
+.event-block h2 {
+    font-size: 20px;
+}
+
 /* Tablet sizeing */
 @media screen and (min-width: 700px) {
 

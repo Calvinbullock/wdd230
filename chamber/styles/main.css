@@ -95,19 +95,6 @@ body {
   border: 1px solid black;
 }
 
-.event-block {
-  text-align: center;
-  margin: auto;
-}
-
-.event-block h3 {
-  font-size: 25px;
-}
-
-.event-block h2 {
-  font-size: 20px;
-}
-
 /* ----- Spotlight styling ----- */
 
 .spotlight-img {
