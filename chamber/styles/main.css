@@ -144,7 +144,7 @@ body {
 .div-card {
   background-color: rgb(202, 202, 202);
   margin: .5rem;
-  /* min-height: 144px; */
+  min-height: 144px;
   font-weight: bold;
   padding: 1rem;
 }
