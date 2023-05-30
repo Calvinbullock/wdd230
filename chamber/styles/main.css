@@ -180,6 +180,10 @@ body {
 /* Discover Page */
 /* Discover Page */
 
+#discover-main {
+  display: inline;
+}
+
 .discover-img {
   width: 100%;
 }
