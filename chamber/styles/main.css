@@ -197,8 +197,8 @@ body {
 .discover-card {
   background-color: rgb(202, 202, 202);
   border: 1px solid black;
-  
-  min-height: 144px;
+  justify-content: center;
+
   margin: .5rem;
   min-height: 144px;
   font-weight: bold;
