@@ -1,13 +1,11 @@
 const MILLISECONDS_PER_DAY = 24 * 60 * 60 * 1000;
+
 let todaysVisit = new Date();
 let lastVisitStr = localStorage.getItem("lastVisit");
-let lastVisitSpan = document.querySelector("last-vist");
-console.log("1")
+let lastVisitSpan = document.querySelector("#last-vist");
 
 if (lastVisitStr == null) {
-    // breaks here
-    console.log("2")
-    lastVisitSpan.textContent = '0'
+    lastVisitSpan.textContent = "0";
     
 } else {
     lastVisitDate = new Date(lastVisitStr);
