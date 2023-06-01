@@ -176,9 +176,10 @@ body {
   display: none;
 }
 
-/* Discover Page */
-/* Discover Page */
-/* Discover Page */
+/* ===== Discover Page ======*/
+/* ===== Discover Page ======*/
+/* ===== Discover Page ======*/
+
 
 #discover-main {
   display: inline;
@@ -186,6 +187,11 @@ body {
 
 .discover-img {
   width: 100%;
+}
+
+.discover-img:hover {
+  box-shadow: 0 0 50px #333;
+  opacity: .5;
 }
 
 .discover-card {
@@ -198,3 +204,4 @@ body {
   font-weight: bold;
   padding: 1rem;
 }
+
