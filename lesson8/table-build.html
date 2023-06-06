@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Exsample</title>
+
+    <style>
+        caption {
+            caption-side: bottom;
+            font-size: .75rem;
+        }
+
+        thead {
+           background-color: black;
+           color: white; 
+        }
+
+        .dark-grey {
+            background-color: darkgray;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th {
+            padding: .5rem;
+            border: 1px solid black;
+        }
+
+        td {
+            text-align: center;
+            padding: .5rem;
+            font-weight: bold;
+            border: 1px grey solid;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: rgb(195, 195, 195);
+        }
+
+        .cross {
+            color: red;
+        }
+
+        .check {
+            color: green;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">ACME Wildwest Services</th>
+            </tr>
+            <tr>
+                <th class="dark-grey">&nbsp;</th>
+                <th class="dark-grey">Basic</th>
+                <th class="dark-grey">Premiume</th>
+                <th class="dark-grey">Deluxe</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Feature 1</td>
+                <td class="check">&check;</td>
+                <td class="check">&check;</td>
+                <td class="check">&check;</td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td class="cross">&#10006;</td>
+                <td class="check">&check;</td>
+                <td class="check">&check;</td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td class="cross">&#10006;</td>
+                <td class="cross">&#10006;</td>
+                <td class="check">&check;</td>
+            </tr>
+        </tbody>
+
+        <caption>
+            Table1: Account Feature Comparastion 
+        </caption>
+    </table>
+</body>
+
+</html>
