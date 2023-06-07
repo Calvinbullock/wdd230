@@ -163,4 +163,16 @@
     nav {
         max-width: 500px;
     }
+
+    /* ===== Discover Page ======*/
+    /* ===== Discover Page ======*/
+    /* ===== Discover Page ======*/
+
+    .discover-img {
+        width: 1200px;
+        height: 650px;
+        align-content: center;
+        
+      }
+
 }
