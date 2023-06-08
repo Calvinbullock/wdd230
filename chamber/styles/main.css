@@ -191,11 +191,6 @@ body {
   max-height: 300px;
 }
 
-.discover-img:hover {
-  box-shadow: 0 0 50px #333;
-  opacity: .5;
-}
-
 .discover-card {
   background-color: rgb(202, 202, 202);
   border: 1px solid black;
