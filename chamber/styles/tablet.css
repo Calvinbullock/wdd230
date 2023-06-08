@@ -113,4 +113,17 @@
         padding-left: 3px;
         padding-right: 3px;
     }
+
+    /* ========= Join Page =========*/
+    /* ========= Join Page =========*/
+    /* ========= Join Page =========*/
+
+    main {
+        display: block;
+        align-content: center;
+
+        width: 60%;
+        margin: 0 auto;
+        padding: 10px;
+    }
 }

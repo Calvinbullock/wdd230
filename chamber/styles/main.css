@@ -419,3 +419,47 @@ footer {
 .event-block h2 {
   font-size: 20px;
 }
+
+/* ========= Join Page =========*/
+/* ========= Join Page =========*/
+/* ========= Join Page =========*/
+
+main {
+  display: block;
+}
+
+section {
+  width: 50%;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  min-width: 400px;
+}
+
+label {
+  display: block;
+  font-size: .75rem;
+}
+
+input {
+  display: block;
+  margin-bottom: .5rem;
+  padding: .5rem;
+}
+
+textarea {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.myradio {
+  display: inline;
+  margin: 0px 5px 8px 0px;
+}
+
+.mysubmit {
+  font-size: 1.5rem;
+  background-color: black;
+  color: var(--header-bg-colour);
+  padding: .5rem;
+}

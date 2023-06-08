@@ -180,4 +180,16 @@
         opacity: .5;
     }
 
+    /* ========= Join Page =========*/
+    /* ========= Join Page =========*/
+    /* ========= Join Page =========*/
+
+    main {
+        display: flex;
+        width: 80%;
+
+        margin: 0 auto;
+        padding: 0px;
+    }
+
 }
