@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        main {
+            display: flex;
+        }
+
+        section {
+            width: 50%;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid black;
+            min-width: 400px;
+        }
+
+        label {
+            display: block;
+            font-size: .75rem;
+        }
+
+        input {
+            display: block;
+            margin-bottom: .5rem;
+            padding: .5rem;
+        }
+
+        textarea {
+            display: block;
+            margin-bottom: .5rem;
+        }
+
+        .myradio {
+            display: inline;
+            margin: 0px 5px 8px 0px;
+        }
+
+        .mysubmit {
+            font-size: 1.5rem;
+            background-color: black;
+            color: limegreen;
+            padding: .5rem;
+        }
+
+        @media(max-width: 800px) {
+            main {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="flex-container">
+
+            <img class="header-block1" src="images/Idaho-Chamber-of-Commerce.webp" alt="Site Logo">
+
+            <div class="header-block2">
+                <h1 class="header-h1">Idaho</h1>
+                <h2 class="header-h2">Chamber of Commerce</h2>
+            </div>
+
+            <div class="header-block3">
+                <a href="" target="_blank"><img class="social-logo" src="images/fb-logo.png" alt="faceBook logo"></a>
+                <a href="" target="_blank"><img class="social-logo" src="images/in-logo.png" alt="LinkedIn logo"></a>
+            </div>
+
+            <nav class="header-block4">
+                <button id="menu-toggle"><span id="menu-open">&equiv;</span><span id="menu-close">X</span></button>
+
+                <ul id="navbar">
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li class="navbar-active"><a href="form.html">Join</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div id="meet-greet">
+            <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m</p>
+        </div>
+
+        <p class="current-date-box">
+            <span class="current-time"></span>
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <form method="GET" action="page2.html">
+                <label for="">First Name <input name="fname" type="text" value="" placeholder="Your First Name"
+                        size="30" maxlength="30" required>
+                </label>
+
+                <label for="">Last Name <input name="Lname" type="text" value="" placeholder="Your First Name" size="30"
+                        maxlength="30" required>
+                </label>
+
+                <p>Tempature</p>
+                <label><input class="myradio" name="temp" type="radio" value="hot"> Hot</label>
+                <label><input class="myradio" name="temp" type="radio" value="warm"> Warm</label>
+                <label><input class="myradio" name="temp" type="radio" value="cold"> Cold</label>
+
+                <label>Description: <textarea name="description" cols="40" rows="5"></textarea></label>
+
+                <input class="mysubmit" type="submit" name="go" value="Go and Do">
+            </form>
+        </section>
+
+        <section>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam esse fugiat laboriosam quibusdam
+            inventore, vero unde architecto sunt libero aliquam voluptatum ipsum obcaecati cumque quisquam maiores quo
+            ducimus ut minus tempora modi natus, maxime vitae ea praesentium. Dolores praesentium, architecto iure ipsum
+            a laudantium cum, facilis consectetur, doloremque soluta eos veniam ex magni quod quo alias necessitatibus
+            facere exercitationem iste libero cupiditate suscipit mollitia! Unde delectus reiciendis tenetur odit
+            explicabo odio quia ea omnis non praesentium inventore dolorem, facere perferendis! Officiis numquam tempora
+            optio dolorum? Necessitatibus accusantium dolor similique maiores labore sequi. Culpa blanditiis nemo non
+            sapiente sunt voluptatibus, in repellendus iste magnam at nobis quas provident, dicta dolores deserunt
+            explicabo aut suscipit obcaecati aliquam libero modi eum veritatis distinctio? Corrupti mollitia alias neque
+            iure dolor eius debitis, inventore cum earum voluptatum aspernatur sequi culpa optio illo autem distinctio
+            voluptate reprehenderit! Est adipisci aliquid autem ex rem, pariatur corrupti quaerat vel similique sequi
+            tenetur tempore beatae modi voluptate enim? Eius consequatur reprehenderit architecto quam adipisci
+            voluptates praesentium nesciunt, distinctio suscipit alias nisi ipsa cumque non? Alias tenetur magnam, sint
+            ad vel est. Distinctio cumque voluptas delectus accusantium commodi cupiditate in, pariatur soluta
+            laudantium velit, inventore autem dicta minus reiciendis praesentium.</section>
+    </main>
+
+    <footer>
+        <div class="footer-flex">
+            <div class="footer-logo-div">
+                <a class="header-block1" href=""><img class="footer-logo" src="images/Idaho-Chamber-of-Commerce.webp"
+                        alt="Site Logo"></a>
+            </div>
+
+            <div class="footer-div1">
+                <h3>Idaho Chamber of Commerce</h3>
+                <p>365 River Pkwy, </p>
+                <p>Idaho Falls, ID 83402</p>
+            </div>
+
+            <div class="footer-div2">
+                <p><a href="">emailtest@byui.edu</a></p>
+                <p><a href="">(000)-000-0000</a></p>
+                <p><a href="https://goo.gl/maps/WKqym9iewTJBgRkk6" target="_blank">Addraes-pin</a></p>
+            </div>
+        </div>
+
+        <hr class="index-footer-hr">
+
+        <div class="footer-div3">
+            <p>&copy;<span class="currentyear"></span> Idaho Chamber</p>
+            <p class="footer-divider"> | </p>
+            <p>Calvin Bullock </p>
+            <p class="footer-divider"> | </p>
+            <p>WDD 230 Project</p>
+            <p class="footer-divider"> | </p>
+            <p><span class="lastupdated"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
