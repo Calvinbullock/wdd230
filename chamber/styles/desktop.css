@@ -5,7 +5,7 @@
 
     /*  Main Layout */
 
-    main {
+    .main-chmaber-index {
         justify-content: center;
         margin: auto;
         row-gap: 10px;
@@ -184,7 +184,7 @@
     /* ========= Join Page =========*/
     /* ========= Join Page =========*/
 
-    main {
+   .join-main {
         display: flex;
         width: 80%;
 
