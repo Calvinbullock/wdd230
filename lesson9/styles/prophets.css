@@ -4,8 +4,7 @@ h1 {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr) );
-
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 
 section {
@@ -13,6 +12,6 @@ section {
     background-color: rgb(0, 128, 128);
     border: solid 3px black;
     margin: 4px;
-    
+
     text-align: center;
 }
