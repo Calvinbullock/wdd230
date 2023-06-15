@@ -16,13 +16,13 @@ const displaymembers = (members) => {
     // select the output container element
     const cards = document.querySelector('.cards'); 
 
-    members.forEach((Members) => {
+    members.forEach((members) => {
         // Create elements to add to the div.cards element
         let card = document.createElement('section');
 
         // Parse all the data from the json to html
         card.innerHTML = `<h2>${members.name}</h2>
-        <img src="${members.imageURL}" alt="">
+        <img src="${members.imageURL}" alt="member image">
         <p>${members.city}</p>
         <p>${members.state}</p>
         <p><a href="${members.website}"></a>website</p>`
