@@ -3,9 +3,9 @@
         {
             "name" : "Jimmy",
             "street" : "134 burgendy st",
-            "city" : "",
-            "state" : "",
-            "zip" : "",
+            "city" : "Rexburg",
+            "state" : "Idaho",
+            "zip" : "999909",
             "Phone" : "",
             "websiteURL" : "",
             "imageURL" : "./images/",
