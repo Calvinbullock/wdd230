@@ -424,11 +424,11 @@ footer {
 /* ========= Join Page =========*/
 /* ========= Join Page =========*/
 
-main {
+.join-main {
   display: block;
 }
 
-section {
+.join-section {
   width: 50%;
   margin: 1rem;
   padding: 1rem;
@@ -463,3 +463,32 @@ textarea {
   color: var(--header-bg-colour);
   padding: .5rem;
 }
+
+/* ========= Directory Page =========*/
+/* ========= Directory Page =========*/
+/* ========= Directory Page =========*/
+
+.direc-main {
+  max-width: 1900px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.cards section {
+  margin: 4px;
+  border: solid 3px black;
+
+  /* display: inline;
+    text-align: center; */
+}
+
+/* img {
+  max-width: 300px;
+} */
+
+/* .dir-container {
+
+} */
