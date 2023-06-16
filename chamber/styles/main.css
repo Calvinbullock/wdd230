@@ -468,22 +468,68 @@ textarea {
 /* ========= Directory Page =========*/
 /* ========= Directory Page =========*/
 
-.direc-main {
+.dir-main {
   max-width: 1900px;
 }
 
-.cards {
+#dir-selector {
+  width: 100%;
+  text-align: center;
+}
+
+#dir-selector button {
+  padding: 1rem;
+  margin: .5rem;
+  border-radius: 5px;
+  background-color: grey;
+  border: 1px black solid;
+}
+
+#dir-selector button.active {
+  background-color: var(--hover);
+  color: var(--general-bg-colour);
+}
+
+/* -- Cards View -- */
+
+.dir-cards .gold-member {
+  box-shadow: 10px 5px 5px goldenrod;
+}
+
+.dir-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
 }
 
-.cards section {
+.dir-cards section {
   margin: 5px;
   border: solid 3px black;
-
   padding: 2em;
 }
 
-.discov-img {
+.dir-img {
   max-width: 300px;
+}
+
+/* -- List View -- */
+
+.dir-list .dir-img {
+  display: none;
+}
+
+.dir-list {
+  display: grid;
+  justify-items: center;
+  padding: 1rem;
+}
+
+.dir-list section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  width: 70%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  margin: 5px;
+  border: solid 3px black;
 }
