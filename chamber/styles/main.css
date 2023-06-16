@@ -478,17 +478,12 @@ textarea {
 }
 
 .cards section {
-  margin: 4px;
+  margin: 5px;
   border: solid 3px black;
 
-  /* display: inline;
-    text-align: center; */
+  padding: 2em;
 }
 
-/* img {
+.discov-img {
   max-width: 300px;
-} */
-
-/* .dir-container {
-
-} */
+}
