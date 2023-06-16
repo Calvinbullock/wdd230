@@ -492,10 +492,6 @@ textarea {
 
 /* -- Cards View -- */
 
-.dir-cards .gold-member {
-  box-shadow: 10px 5px 5px goldenrod;
-}
-
 .dir-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
@@ -509,6 +505,11 @@ textarea {
 
 .dir-img {
   max-width: 300px;
+}
+
+.dir-cards .gold-member {
+  /* border: dotted gold 3px; */
+  background-color: gold;
 }
 
 /* -- List View -- */

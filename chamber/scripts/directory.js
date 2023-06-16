@@ -50,13 +50,21 @@ const displaymembers = (members) => {
     members.forEach((members) => {
         // Create elements to add to the div.cards element
         let card = document.createElement('section');
-        
+
         // Parse all the data from the json to html
         card.innerHTML = `<h2>${members.name}</h2>
         <img class="dir-img" src="${members.imageURL}" alt="member image">
         <p>${members.street} ${members.city}, ${members.state}, ${members.zip}</p>
         <p><a href="${members.websiteURL}">website</a></p>
-        <p>${members.Phone}</p><p>${members.membershipLevel}</p>`
+        <p>${members.Phone}</p>`;
+        
+
+        // -- TODO BUG not ADDIng class to html...
+        // Gold Highlight
+        if (members.membershipLevel == 'gold') {
+            card.classList.add("gold-member")
+        }
+        
         cards.appendChild(card);
 
     }) // end of forEach loop
