@@ -25,14 +25,14 @@
             "adCopy" : ""
         },
         {
-            "name" : "Nikkoli Tesla",
+            "name" : "Tesla systems",
             "street" : "134 burgendy st",
             "city" : "Renko",
             "state" : "Idaho",
             "zip" : "999909",
             "Phone" : "000-163-3844",
             "websiteURL" : "",
-            "imageURL" : "./images/",
+            "imageURL" : "./images/discover-img/Lighting.webp",
             "membershipLevel" : "Gold",
             "adCopy" : ""
         },
@@ -56,7 +56,7 @@
             "zip" : "999900",
             "Phone" : "000-163-3833",
             "websiteURL" : "",
-            "imageURL" : "./images/",
+            "imageURL" : "./images/discover-img/StargateLogo.webp",
             "membershipLevel" : "non-profit",
             "adCopy" : ""
         },
@@ -68,7 +68,7 @@
             "zip" : "Moscow",
             "Phone" : "000-163-3831",
             "websiteURL" : "",
-            "imageURL" : "./images/",
+            "imageURL" : "./images/discover-img/SerenityLogo.webp",
             "membershipLevel" : "Bronze",
             "adCopy" : ""
         },
@@ -91,8 +91,8 @@
             "state" : "Idaho",
             "zip" : "999900",
             "Phone" : "000-163-3822",
-            "websiteURL" : "",
-            "imageURL" : "",
+            "websiteURL" : "https://rivian.com",
+            "imageURL" : "./images/discover-img/Rivian.webp",
             "membershipLevel" : "Silver",
             "adCopy" : ""
         },
@@ -103,8 +103,8 @@
             "state" : "Idaho",
             "zip" : "999909",
             "Phone" : "000-163-3849",
-            "websiteURL" : "https://rivian.com",
-            "imageURL" : "./images/discover-img/Rivian.webp",
+            "websiteURL" : "",
+            "imageURL" : "./images/discover-img/LightBulb.webp",
             "membershipLevel" : "Gold",
             "adCopy" : ""
         }
