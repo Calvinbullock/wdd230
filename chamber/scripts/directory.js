@@ -22,10 +22,10 @@ const displaymembers = (members) => {
         card.classList.add("dir-container");
         // Parse all the data from the json to html
         card.innerHTML = `<h2>${members.name}</h2>
-        <img src="${members.imageURL}" alt="member image">
-        <p>${members.city}</p>
-        <p>${members.state}</p>
-        <p><a href="${members.website}"></a>website</p>`
+        <img class="discov-img" src="${members.imageURL}" alt="member image">
+        <p>${members.street} ${members.city}, ${members.state}, ${members.zip}</p>
+        <p><a href="${members.websiteURL}">website</a></p>
+        <p>${members.Phone}</p><p>${members.membershipLevel}</p>`
         cards.appendChild(card);
 
     }) // end of forEach loop
