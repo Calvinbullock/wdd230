@@ -1,26 +1,26 @@
 {
     "members": [
         {
-            "name" : "Jimmy Neckson",
+            "name" : "Framework",
             "street" : "134 burgendy st",
             "city" : "Rexburg",
             "state" : "Idaho",
             "zip" : "999909",
             "Phone" : "000-222-2222",
-            "websiteURL" : "",
-            "imageURL" : "./images/",
+            "websiteURL" : "https://frame.work/",
+            "imageURL" : "./images/discover-img/framework.webp",
             "membershipLevel" : "Non-profit",
             "adCopy" : ""
         },
         {
-            "name" : "Jason Nemit",
+            "name" : "Fedora Linux",
             "street" : "13 Red Road",
             "city" : "Toronto",
             "state" : "Idaho",
             "zip" : "999909",
             "Phone" : "000-163-3847",
-            "websiteURL" : "",
-            "imageURL" : "./images/",
+            "websiteURL" : "https://fedoraproject.org/",
+            "imageURL" : "./images/discover-img/fedora37.webp",
             "membershipLevel" : "Bronze",
             "adCopy" : ""
         },
@@ -73,26 +73,26 @@
             "adCopy" : ""
         },
         {
-            "name" : "ALec Ledson",
+            "name" : "System 76",
             "street" : "134 burgendy st",
             "city" : "Idho Falls",
             "state" : "Idaho",
             "zip" : "999999",
             "Phone" : "000-163-3832",
-            "websiteURL" : "",
-            "imageURL" : "./images/",
+            "websiteURL" : "https://system76.com",
+            "imageURL" : "./images/discover-img/pangolin-System76.webp",
             "membershipLevel" : "non-profit",
             "adCopy" : ""
         },
         {
-            "name" : "Alexis Nefson",
+            "name" : "Rivian",
             "street" : "134 burgendy st",
             "city" : "Boise",
             "state" : "Idaho",
             "zip" : "999900",
             "Phone" : "000-163-3822",
             "websiteURL" : "",
-            "imageURL" : "./images/",
+            "imageURL" : "",
             "membershipLevel" : "Silver",
             "adCopy" : ""
         },
@@ -103,8 +103,8 @@
             "state" : "Idaho",
             "zip" : "999909",
             "Phone" : "000-163-3849",
-            "websiteURL" : "",
-            "imageURL" : "./images/",
+            "websiteURL" : "https://rivian.com",
+            "imageURL" : "./images/discover-img/Rivian.webp",
             "membershipLevel" : "Gold",
             "adCopy" : ""
         }
