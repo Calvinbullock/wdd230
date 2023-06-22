@@ -1,7 +1,7 @@
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const captionDesc = document.querySelector('#icon-descrit');
 
 // Rexberg Lat and long
 const lat = "43.82";
