@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/desktop.css">
     <script src="./scripts/header-footer.js" defer></script>
     <script src="./scripts/home-page.js" defer></script>
-    <script src="./scripts/weather.js" defer></script>
+    <script src="./scripts/weather-api.js" defer></script>
     <link rel="icon" href="images/favicon.ico">
 </head>
 
@@ -99,11 +99,11 @@
                 <h3>Weather</h3>
 
                 <div class="temp-div">
-                    <img class="weather-img" src="images/Weather-Icon.webp" alt="">
-                    <p class="temp-degrees"><span id="temp">?</span>&deg;F</p>
+                    <img src="#" alt="Weather icon" id="weather-icon" />
+                    <p class="temp-degrees"><span id="current-temp">?</span>&deg;F</p>
                 </div>
+                <figcaption></figcaption>
 
-                <p><span class="">Partly Cloudy</span></p>
                 <hr>
                 <p>Wind Speed: <span id="wind-speed">N/A</span></p>
                 <p>Wind Chill: <span id="wind-chill">N/A</span>&deg; F</p>
