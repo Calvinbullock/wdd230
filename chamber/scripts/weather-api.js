@@ -16,9 +16,10 @@ const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lo
 // const url = "https://api.openweathermap.org/data/2.5/weather?lat=43.82&lon=-111.79&appid=c666f94d8b574941793ed9ae7f9c35f7"
 
 
-function windchill(windspeed, temp) {
+function windchill(temp, windspeed) {
+
     // Get HTML elements to update x3
-    const tempElement = document.querySelector("#temp");
+    const tempElement = document.querySelector("#current-temp");
     const windSpeedElt = document.querySelector("#wind-speed");
     const windChillElt = document.querySelector("#wind-chill");
 
@@ -70,11 +71,11 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    
 
     const temp = weatherData.main.temp.toFixed(0);
-    const windspeed = weatherData.main.speed.toFixed(0);
-    
-    console.log(`here ${temp}, ${windspeed}`)
+    const windspeed = weatherData.wind.speed.toFixed(0);
+
     // Include the JS file before this file call to get this func
     windchill(temp, windspeed);
 }
