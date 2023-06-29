@@ -26,7 +26,7 @@ function displaySpotlights(businessList) {
         spotlightcount++;
         newdiv.innerHTML = `<h3>${spotlight.name}</h3>
                         <p class="spotlight-p"><a href="${spotlight.websiteURL}"><img class="spotlight-img" src="${spotlight.imageURL}"></a></p>
-                        <p class="spotlight-p">${spotlight.adcopy}</p>
+                        <p class="spotlight-p">${spotlight.adCopy}</p>
                         <hr class="spotlight-hr">
                         <p class="spotlight-p">${spotlight.streetAddress}, ${spotlight.cityStateZip}</p>
                         <p class="spotlight-p">${spotlight.Phone}</p>`
