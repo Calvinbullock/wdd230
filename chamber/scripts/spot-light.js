@@ -1,11 +1,14 @@
 // Get business data for spotlights
 
-const businessDataUrl = "./data/business.json";
+const businessDataUrl = "./data/directory.json";
 
 
 function displaySpotlights(businessList) {
-    businessList = businessList.filter(x => x.membershipLevel == 'gold' || x.membershipLevel == 'silver');
+    // filter data in list based on membership level
+    businessList = businessList.filter(x => x.membershipLevel == 'Gold' || x.membershipLevel == 'Silver');
+    
     spotlights = []
+    // grab only spotlights 3 display 
     for (let i = 0; i < 3; i++) {
         var elt = Math.floor(Math.random() * businessList.length)
         spotlights.push(businessList.splice(elt, 1)[0]);
@@ -17,16 +20,21 @@ function displaySpotlights(businessList) {
     results = spotlights.map((spotlight) => {
         var newdiv = document.createElement('div');
         newdiv.classList.add('spotlight' + spotlightcount);
+        newdiv.classList.add('div-card');
+        newdiv.classList.add('spotlight-block');
+
         spotlightcount++;
-        newdiv.innerHTML = `<h4>${spotlight.name}</h4>
-                        <p class="centered-image"><a href="${spotlight.websiteURL}"><img src="${spotlight.imageURL}"></a></p>
-                        <p>${spotlight.streetAddress}, ${spotlight.cityStateZip}</p>
-                        <p>${spotlight.adcopy}</p>`
+        newdiv.innerHTML = `<h3>${spotlight.name}</h3>
+                        <p class="spotlight-p"><a href="${spotlight.websiteURL}"><img class="spotlight-img" src="${spotlight.imageURL}"></a></p>
+                        <p class="spotlight-p">${spotlight.adcopy}</p>
+                        <hr class="spotlight-hr">
+                        <p class="spotlight-p">${spotlight.streetAddress}, ${spotlight.cityStateZip}</p>
+                        <p class="spotlight-p">${spotlight.Phone}</p>`
         mainspotlight.append(newdiv);
         return `${spotlight.name}`;
     })
 
-    let maxitem = results.reduce((max, item) => { return item > max ? item : max }, results[0])
+    let maxitem = results.reduce((max, item) => { return item > max ? item : max }, results[0]) 
 
     console.log(results)
     console.log(maxitem)
@@ -36,7 +44,7 @@ async function getBusinessData() {
     const response = await fetch(businessDataUrl);
     if (response.ok) {
         const data = await response.json();
-        displaySpotlights(data.businesses);
+        displaySpotlights(data.members);
     } else {
         console.error("There was an error loading the data.");
     }
