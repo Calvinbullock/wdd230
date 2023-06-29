@@ -10,7 +10,7 @@
             "websiteURL" : "https://frame.work/",
             "imageURL" : "./images/discover-img/framework.webp",
             "membershipLevel" : "Non-profit",
-            "adCopy" : ""
+            "adCopy" : "Imageine want a world with out E-waste"
         },
         {
             "name" : "Fedora Linux",
@@ -22,7 +22,7 @@
             "websiteURL" : "https://fedoraproject.org/",
             "imageURL" : "./images/discover-img/fedora37.webp",
             "membershipLevel" : "Bronze",
-            "adCopy" : ""
+            "adCopy" : "A system that moves forward with you in control"
         },
         {
             "name" : "Tesla systems",
@@ -34,7 +34,7 @@
             "websiteURL" : "",
             "imageURL" : "./images/discover-img/Lighting.webp",
             "membershipLevel" : "Gold",
-            "adCopy" : ""
+            "adCopy" : "We seek cleaner better more efficent power storage"
         },
         {
             "name" : "Joe Flanigan",
@@ -46,7 +46,7 @@
             "websiteURL" : "",
             "imageURL" : "./images/discover-img/Atlantis-logo.webp",
             "membershipLevel" : "Gold",
-            "adCopy" : ""
+            "adCopy" : "We are a comunity that loves to contect collecters with sci-fi collecters items"
         },
         {
             "name" : "John Sheaperd",
@@ -58,7 +58,7 @@
             "websiteURL" : "",
             "imageURL" : "./images/discover-img/StargateLogo.webp",
             "membershipLevel" : "non-profit",
-            "adCopy" : ""
+            "adCopy" : "We are devoted to supporting and advacating for more creatinve media"
         },
         {
             "name" : "Nathan Fillion",
@@ -70,7 +70,7 @@
             "websiteURL" : "",
             "imageURL" : "./images/discover-img/SerenityLogo.webp",
             "membershipLevel" : "Bronze",
-            "adCopy" : ""
+            "adCopy" : "We want "
         },
         {
             "name" : "System 76",
@@ -82,7 +82,7 @@
             "websiteURL" : "https://system76.com",
             "imageURL" : "./images/discover-img/pangolin-System76.webp",
             "membershipLevel" : "non-profit",
-            "adCopy" : ""
+            "adCopy" : "A computer that you own and is high quality!"
         },
         {
             "name" : "Rivian",
@@ -94,7 +94,7 @@
             "websiteURL" : "https://rivian.com",
             "imageURL" : "./images/discover-img/Rivian.webp",
             "membershipLevel" : "Silver",
-            "adCopy" : ""
+            "adCopy" : "The car of the future"
         },
         {
             "name" : "Thomas Edison",
@@ -106,7 +106,7 @@
             "websiteURL" : "",
             "imageURL" : "./images/discover-img/LightBulb.webp",
             "membershipLevel" : "Gold",
-            "adCopy" : ""
+            "adCopy" : "Inovation starts with ideas."
         }
     ]
 }
