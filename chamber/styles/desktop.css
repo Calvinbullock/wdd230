@@ -56,7 +56,7 @@
     }
 
     .spotlight-3 {
-        display: block;
+        display: block !important;
     }
 
     .inner-div-card {
