@@ -26,7 +26,6 @@ listSelector.addEventListener('click', () => {
     }
 });
 
-
 // -- Data pasrseing -- \\
 
 const path = './data/directory.json';
@@ -57,12 +56,12 @@ const displaymembers = (members) => {
         <p>${members.street} ${members.city}, ${members.state}, ${members.zip}</p>
         <p><a href="${members.websiteURL}">website</a></p>
         <p>${members.Phone}</p>`;
-        
+
         // Gold Highlight
         if (members.membershipLevel == 'Gold') {
             card.classList.add("gold-member")
         }
-        
+
         cards.appendChild(card);
 
     }) // end of forEach loop

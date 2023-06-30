@@ -6,7 +6,7 @@ const businessDataUrl = "./data/directory.json";
 function displaySpotlights(businessList) {
     // filter data in list based on membership level
     businessList = businessList.filter(x => x.membershipLevel == 'Gold' || x.membershipLevel == 'Silver');
-    
+
     spotlights = []
     // grab only spotlights 3 display 
     for (let i = 0; i < 3; i++) {
@@ -35,7 +35,7 @@ function displaySpotlights(businessList) {
         return `${spotlight.name}`;
     })
 
-    let maxitem = results.reduce((max, item) => { return item > max ? item : max }, results[0]) 
+    let maxitem = results.reduce((max, item) => { return item > max ? item : max }, results[0])
 
     console.log(results)
     console.log(maxitem)

@@ -185,7 +185,7 @@
     /* ========= Join Page =========*/
     /* ========= Join Page =========*/
 
-   .join-main {
+    .join-main {
         display: flex;
         width: 80%;
 
@@ -193,6 +193,5 @@
         padding: 0px;
     }
 
-    
-}
 
+}
