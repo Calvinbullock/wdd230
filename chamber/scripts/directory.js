@@ -58,8 +58,6 @@ const displaymembers = (members) => {
         <p><a href="${members.websiteURL}">website</a></p>
         <p>${members.Phone}</p>`;
         
-
-        // -- TODO BUG not ADDIng class to html...
         // Gold Highlight
         if (members.membershipLevel == 'Gold') {
             card.classList.add("gold-member")
