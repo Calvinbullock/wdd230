@@ -59,12 +59,16 @@
     }
 
     .spotlight-3 {
-        display: none;
+        display: none !important;
     }
 
     .spotlight-block {
-        display: flex;
+        display: flex;   
         justify-content: center;
+    }
+
+    .spotlight-inline {
+        display: block;
     }
 
     .spotlight-1,
