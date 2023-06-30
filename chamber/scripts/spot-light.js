@@ -19,16 +19,17 @@ function displaySpotlights(businessList) {
     spotlightcount = 1;
     results = spotlights.map((spotlight) => {
         var newdiv = document.createElement('div');
-        newdiv.classList.add('spotlight' + spotlightcount);
+        newdiv.classList.add('spotlight-' + spotlightcount);
         newdiv.classList.add('div-card');
         newdiv.classList.add('spotlight-block');
+        newdiv.classList.add('spotlight-inline');
 
         spotlightcount++;
         newdiv.innerHTML = `<h3>${spotlight.name}</h3>
                         <p class="spotlight-p"><a href="${spotlight.websiteURL}"><img class="spotlight-img" src="${spotlight.imageURL}"></a></p>
                         <p class="spotlight-p">${spotlight.adCopy}</p>
                         <hr class="spotlight-hr">
-                        <p class="spotlight-p">${spotlight.streetAddress}, ${spotlight.cityStateZip}</p>
+                        <p class="spotlight-p">${spotlight.street} ${spotlight.state}, ${spotlight.zip}</p>
                         <p class="spotlight-p">${spotlight.Phone}</p>`
         mainspotlight.append(newdiv);
         return `${spotlight.name}`;
