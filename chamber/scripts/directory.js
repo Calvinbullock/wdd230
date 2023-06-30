@@ -61,7 +61,7 @@ const displaymembers = (members) => {
 
         // -- TODO BUG not ADDIng class to html...
         // Gold Highlight
-        if (members.membershipLevel == 'gold') {
+        if (members.membershipLevel == 'Gold') {
             card.classList.add("gold-member")
         }
         
