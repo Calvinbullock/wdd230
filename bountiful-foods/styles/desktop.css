@@ -13,6 +13,8 @@ body {
     font-family: 'Mate SC', serif;
 }
 
+/* --------------- index --------------- */
+
 .splash-page {
     background-color: var(--midColour);
 
@@ -34,7 +36,7 @@ body {
     /* background-color: var(--pink1); */
     max-width: 300px;
     text-align: center;
-    margin: 7rem;
+    margin: auto;
 }
 
 .call-to-order {
@@ -62,6 +64,7 @@ body {
 
 .hero-img {
     max-width: 600px;
+    margin: auto;
 }
 
 .second-page {
@@ -79,7 +82,14 @@ body {
 
 .cali-summery {
     max-width: 500px;
+    margin: 4em;
 }
+
+/* --------------- Fresh --------------- */
+
+
+
+
 
 /* ------- Header Bar ---------- */
 /* ------- Header Bar ---------- */
@@ -152,13 +162,14 @@ footer {
 
     display: flex;
     padding: 4em;
+    justify-content: center;
 }
 
 .social-logo {
     max-width: 80px;
 }
 
-.footer-div2 {
+.footer-div2-social {
     display: flex;
     min-width: 50px;
     align-items: center;
@@ -168,4 +179,5 @@ footer {
 .footer-div1 {
     min-width: 500px;
     text-align: center;
+    margin: auto;
 }
