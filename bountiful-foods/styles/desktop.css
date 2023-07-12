@@ -147,6 +147,25 @@ li {
 
 /* ------------ Footer ------------ */
 
+footer {
+    background-color: var(--midColour);
+
+    display: flex;
+    padding: 4em;
+}
+
 .social-logo {
     max-width: 80px;
+}
+
+.footer-div2 {
+    display: flex;
+    min-width: 50px;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-div1 {
+    min-width: 500px;
+    text-align: center;
 }
