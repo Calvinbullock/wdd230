@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+:root {
+    --pink1: #FE6A86;
+    --pink2: #FD969A;
+    --midColour: #FFDCE0;
+    --yellow1: #FEE255;
+    --yellow2: #FFDD13;
+    --Blue: #121259;
+}
+
+body {
+    font-family: 'Mate SC', serif;
+}
+
+.splash-page {
+    background-color: var(--midColour);
+
+    margin-top: 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.splash-flex-box {
+    display: flex;
+}
+
+.hero-title {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.call-to-act {
+    /* background-color: var(--pink1); */
+    max-width: 300px;
+    text-align: center;
+    margin: 7rem;
+}
+
+.call-to-order {
+    background-color: var(--pink1);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4;
+    max-width: 90px;
+
+    margin: auto;
+    margin-top: 2rem;
+
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.call-to-order a {
+    text-decoration: none;
+}
+
+.call-to-act a:visited {
+    color: black;
+}
+
+.hero-img {
+    max-width: 600px;
+}
+
+.second-page {
+    display: flex;
+    margin: 2em;
+    align-content: center;
+}
+
+.weather-block {
+    text-align: center;
+    max-width: 500px;
+    min-width: 300px;
+    border: 1px solid black;
+}
+
+.cali-summery {
+    max-width: 500px;
+}
+
+/* ------- Header Bar ---------- */
+/* ------- Header Bar ---------- */
+/* ------- Header Bar ---------- */
+
+header {
+    display: flex;
+    margin: 2em;
+    display: inline;
+}
+
+.logo {
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    z-index: 20000;
+
+    padding: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    max-width: 70px;
+}
+
+/* ------- Nav Bar ---------- */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    background-color: var(--midColour);
+    list-style: none;
+
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    z-index: 20000;
+    padding: 0;
+}
+
+li {
+    padding: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-active {
+    color: var(--pink2);
+    font-weight: bold;
+}
+
+.navbar a :hover {
+    color: var(--midColour);
+    background-color: var(--pink1);
+}
+
+.navbar a,
+.navbar a :visited {
+    color: black;
+    text-decoration: none;
+
+    padding: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ------------ Footer ------------ */
+
+.social-logo {
+    max-width: 80px;
+}

@@ -3,22 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods Home Page">
     <title>Bountiful Foods</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/phone.css">
     <link rel="stylesheet" href="styles/desktop.css">
+
+    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
     <header>
-        <img class="logo" src="" al t="Site Logo">
+        <img class="logo" src="./images/BountifulFoodsLogo.webp" alt="Site Logo">
 
         <nav>
             <ul class="navbar">
                 <li class="navbar-active"><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
             </ul>
         </nav>
     </header>
@@ -26,15 +31,51 @@
     <main class="bf-main">
 
         <div class="splash-page">
-            <img class="hero-img" src="images/Smoothy_hero.jpg" alt="smoothy image">
 
-            <div id="call-to-act">
-                <a href="fresh.html">Order Here</a>
+            <div class="splash-flex-box">
+                <div class="call-to-act">
+
+                    <h1 class="hero-title">Bountiful Foods</h1>
+                    <h2>Refreshingly Fruity</h2>
+
+                    <div class="call-to-order">
+                        <a href="fresh.html">Order Here</a>
+                    </div>
+                </div>
+
+                <img class="hero-img" src="images/RoundSmoothy.webp" alt="smoothy image">
+                <!-- <img class="hero-img" src="images/RoundSmoothys2.webp" alt="smoothy image"> -->
+
             </div>
-
         </div>
 
-        <div class="weather-block">
+        <div class="second-page">
+
+            <div class="cali-summery">
+                <h2>Califonia Coast</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, earum? Voluptatum laudantium ex
+                    aspernatur cum voluptatibus. Sit nostrum placeat tempora unde blanditiis? Incidunt blanditiis
+                    corporis,
+                    fugit nisi minima perferendis quibusdam ut? Vero quis sequi qui deserunt repellendus totam nihil
+                    eius!
+                </p>
+            </div>
+
+            <div class="weather-block">
+                <div class="iner-weather-block">
+                    <h3>Weather</h3>
+
+                    <div class="temp-div">
+                        <img src="#" alt="Weather icon" id="weather-icon" />
+                        <p class="temp-degrees"><span id="current-temp">?</span>&deg;F</p>
+                    </div>
+                    <p id="icon-descrit"></p>
+
+                    <hr>
+                    <p>Wind Speed: <span id="wind-speed">N/A</span></p>
+                    <p>Wind Chill: <span id="wind-chill">N/A</span>&deg; F</p>
+                </div>
+            </div>
 
         </div>
 
@@ -42,6 +83,10 @@
     </main>
 
     <footer>
+        <!-- Social links -->
+        <a  href=""><img class="social-logo" src="images/in-logo.webp" alt="Linked in logo"></a>
+        <a  href=""><img class="social-logo" src="images/fb-logo.png" alt="Facebook Logo"></a>
+        <a  href=""><img class="social-logo" src="images/Mastadon-icon.webp" alt="Mastadon logo"></a>
 
     </footer>
 </body>

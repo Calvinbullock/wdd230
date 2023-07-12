@@ -3,25 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fresh</title>
+    <meta name="description" content="Bountiful Foods Fresh Page">
+    <title>Bountiful Foods Fresh page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/phone.css">
+    <link rel="stylesheet" href="styles/desktop.css">
+
+    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
     <header>
-        <img class="logo" src="" al t="Site Logo">
+        <img class="logo" src="" alt="Site Logo">
 
         <nav>
-            <ul id="navbar">
+            <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>
                 <li class="navbar-active"><a href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="fresh-main">
+        <section class="fresh-section">
 
+            <h2>Place Your Order</h2>
+
+            <form method="GET" action="page2.html">
+
+                <label>First Name*<input name="fname" type="text" value="" placeholder="Your First Name" size="30"
+                        maxlength="30" required>
+                </label>
+
+                <label>Last Name*<input name="Lname" type="text" value="" placeholder="Your Last Name" size="30"
+                        maxlength="30" required>
+                </label>
+
+                <label>Email*<input name="Email" type="email" value="" placeholder="Email@org" size="30" maxlength="30"
+                        required>
+                </label>
+
+                <label>Cell Phone*<input name="CellPhone" type="text" value="Cell" placeholder="000-000-0000" size="30"
+                        maxlength="30" required>
+                </label>
+
+                <input class="mysubmit" type="submit" name="order" value="Place Order">
+            </form>
+        </section>
     </main>
 
 </body>

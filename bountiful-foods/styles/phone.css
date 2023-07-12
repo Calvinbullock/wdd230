@@ -1,0 +1,12 @@
+:root {
+    --header-bg-colour: #FE6A86;
+    --header-text-colour: #FD969A;
+    --general-bg-colour: #FFDCE0;
+    --general-text-colour: #FEE255;
+    --general-text-colour: #FFDD13;
+    --hover: #121259;
+}
+
+ul {
+    list-style-type: none;
+}
